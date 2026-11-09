@@ -1,0 +1,30 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Claude Code: configuración personal y enlace a tu vault
+.claude/settings.local.json
+.claude/agents
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Salidas locales
+out/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.idea/
